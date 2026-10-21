@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/Shared/">
+    <Project Path="Healthcare.Common/Healthcare.Common.csproj" />
+  </Folder>
+  <Folder Name="/Auth/">
+    <Project Path="AuthService.Core/AuthService.Core.csproj" />
+    <Project Path="AuthService.Infrastructure/AuthService.Infrastructure.csproj" />
+    <Project Path="AuthService/AuthService.csproj" />
+  </Folder>
+  <Folder Name="/Healthcare/">
+    <Project Path="HealthcareService.Core/HealthcareService.Core.csproj" />
+    <Project Path="HealthcareService.Infrastructure/HealthcareService.Infrastructure.csproj" />
+    <Project Path="HealthcareService/HealthcareService.csproj" />
+  </Folder>
+  <Folder Name="/Gateway/">
+    <Project Path="ApiGateway/ApiGateway.csproj" />
+  </Folder>
+</Solution>
